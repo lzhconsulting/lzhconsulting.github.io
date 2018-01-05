@@ -1,0 +1,20 @@
+---
+layout: post-anon
+title: "Customized Training Services"
+date: 2016-01-01 00:00:00
+author: Admin
+categories:
+- service
+icon: graduation-cap
+---
+
+Customized training services include ergonomic and injury prevention
+training for executives, management, ergonomic task force members and
+employees.<!--more--> We will provide training programs specific to
+all levels that are interactive and can be customized.  Our ergonomic
+seminars include:
+
+ * Office Ergonomics
+ * Industrial Ergonomics
+ * Body Mechanics
+ * Safe Patient Mobilization

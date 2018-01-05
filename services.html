@@ -1,0 +1,41 @@
+---
+layout: blog
+title: Services
+permalink: /services/
+---
+
+<div class="container mtb">
+
+  <div class="row">
+    <div class="col-md-12">
+
+      <p>Ergonomics is a multi-disciplinary approach to studying
+      people at work. It is the study of how people interact with
+      their "total working environment". </p>
+
+      <p>LZH Consulting services provide cost-effective solutions to
+      improve your employees' work environment and to control your
+      workers' compensation and medical costs.</p> 
+      
+    </div>
+  </div>
+  
+  <div class="row">
+    
+    <!-- Services List -->
+      
+    {% for post in site.categories['service'] %}
+    <div class="col-md-2 centered">
+      <i class="fa fa-5x fa-{{ post.icon }}"></i>
+    </div>
+    <div class="col-md-10">
+      <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+      {{ post.excerpt }}
+      <p><a href="{{ post.url | prepend: site.baseurl }}">[more...]</a></p>
+    </div>
+    
+    <div class="spacing"></div>
+    {% endfor %}      
+
+  </div>
+</div>

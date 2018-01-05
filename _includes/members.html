@@ -1,0 +1,26 @@
+<div class="container mtb">
+  <div class="row">
+    
+    <h3 class="mb">Biographies</h3>
+    
+    <!-- Biographies -->
+      
+      {% for post in site.categories['bio'] %}
+      <div class="col-md-2 centered">
+      <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ post.img }}" alt="">
+      <h4>{{ post.name }}</h4>
+      <h5 class="ctitle">{{ post.position }}</h5>
+      </div>
+      <div class="col-md-10">
+      <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+      {{ post.excerpt }}
+      <p><a href="{{ post.url | prepend: site.baseurl }}">[more...]</a></p>
+
+      <div class="hline"></div>
+    
+      <div class="spacing"></div>
+      </div>
+      {% endfor %}
+      
+  </div>
+</div>

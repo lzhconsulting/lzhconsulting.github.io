@@ -1,0 +1,61 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: LZH Consulting, LLC
+description: ""
+description: "Occupational Health &amp; Ergonomic Consulting Services"
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "file:///Users/loomis/Documents/code/lzhconsulting/lzhconsulting.github.io/_site/"
+copyright: "&copy; 2017 by LZH Consulting, LLC"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#ffa500"
+  primary_rgb: "255,165,0" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#384452" #"#33004D"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+  
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames.  Shown in footer.
+social:
+  - title: envelope
+    url: mailto:lori.hoener@lzhconsulting.com
+  - title: linkedin
+    url: https://www.linkedin.com/in/lorizinneckerhoener/
+    
+# Postal address (add as many lines as necessary). 
+address:
+  - lines: 
+    - 344 N. Elm Avenue
+    - Elmhurst, IL  60156
+    - United States
+email: lori.hoener@lzhconsulting.com
+tel: +1 (773) 852-6658
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+    
+# Members information. Shown on About page.
+members:
+  - name: Lori Hoener
+    position: Founder
+    text: Lori Hoener is a Certified Professional Ergonomist and Licensed and Registered Occupational Therapist.  She received her Bachelor of Science degree in 1986 from University of Wisconsin-Madison, received her MBA in 2004 at Loyola University-Chicago, and became a Certified Professional Ergonomist in 2008. Lori has specialized in Ergonomics, Patient Movement and Handling, Prevention and Wellness and Return to Work Programs.
+    img: lori-hoener-headshot.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:lori.hoener@lzhconsulting.com
+      - title: twitter
+        url: http://twitter.com/handle
+    
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "Cost-effective solutions to improve your employees' work environment and to control your workers' compensation and medical costs."
