@@ -7,7 +7,7 @@ description: "Occupational Health &amp; Ergonomic Consulting Services"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "file:///Users/loomis/Documents/code/lzhconsulting/lzhconsulting.github.io/_site/"
-copyright: "&copy; 2017 by LZH Consulting, LLC"
+copyright: "&copy; 2018 by LZH Consulting, LLC"
 
 # Build settings
 markdown: kramdown
